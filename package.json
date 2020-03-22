@@ -59,6 +59,7 @@
     "style-loader": "^0.20.3",
     "uglify-es": "^3.3.9",
     "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^2.11.5"
   },
   "dependencies": {
@@ -72,9 +73,9 @@
     "react-view-pager": "^0.6.0"
   },
   "peerDependencies": {
+    "prop-types": "^15.7.2",
     "react": "^15.3.0 || ^16.2.0",
-    "react-dom": "^15.3.0 || ^16.2.0",
-    "prop-types": "^15.7.2"
+    "react-dom": "^15.3.0 || ^16.2.0"
   },
   "scripts": {
     "build": "nps build",
